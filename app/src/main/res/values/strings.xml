@@ -39,7 +39,7 @@
     <string name="choose_gamemode">Please Choose your Gamemode</string>
     <string name="gamemode_multiplayer">Multiplayer</string>
     <string name="game_creator">Game Developer</string>
-    <string name="Credits">Programming and Design by:</string>
+    <string name="Credits"> Programming and Design by:</string>
     <string name="lupricht" translatable="false">Eugen Lupricht</string>
     <string name="logo">Logo</string>
 
