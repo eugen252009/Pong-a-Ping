@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Pong a Ping</string>
+    <string name="gamestart">Start Game</string>
+    <string name="balloptions">Ball Options</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="developing">in Progress....</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="musicoptions">Music Options</string>
+    <string name="volume">Volume</string>
+    <string name="choosesong">Choose your Song:</string>
+    <string name="song" translatable="false">"Song "</string>
+    <string name="back">Back</string>
+    <string name="gameresume">Resume Game</string>
+    <string name="player">Player</string>
+    <string name="enemy">Enemy</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Drunk</string>
+    <string name="resetscore">Reset your Score?</string>
+    <string name="reset">Reset Score</string>
+    <string name="yesdelete">Yes, Delete it anyway</string>
+    <string name="nodelete">No, dont delete my Savegame</string>
+    <string name="ultra">very Hard</string>
+    <string name="mute">Mute Music</string>
+    <string name="choosewallpaper">Choose a Wallpaper</string>
+    <string name="pick_a_color">Pick a Color</string>
+    <string name="red">Red</string>
+    <string name="blue">blue</string>
+    <string name="black">Black</string>
+    <string name="white">White</string>
+    <string name="green">Green</string>
+    <string name="cyan">Cyan</string>
+    <string name="chooseBall">Choose your Ball Color</string>
+    <string name="options">Options</string>
+    <string name="now">Now:</string>
+    <string name="chooseGameMode">Choose your Game Mode</string>
+    <string name="Classic">Classic</string>
+    <string name="About">About</string>
+    <string name="choose_gamemode">Please Choose your Gamemode</string>
+    <string name="gamemode_multiplayer">Multiplayer</string>
+    <string name="game_creator">Game Developer</string>
+    <string name="Credits">Programming and Design by:</string>
+    <string name="lupricht" translatable="false">Eugen Lupricht</string>
+    <string name="logo">Logo</string>
+
+</resources>
