@@ -37,7 +37,6 @@ public class Surface extends SurfaceView implements SurfaceHolder.Callback {
         V TODO Verschiedene Bälle
         V TODO inteligentere KI
         V TODO Spielstand speichern
-        TODO LAter Release: Pay to Win
         TODO BAllarten ändern
         TODO Größe,
         V TODO Farbe
