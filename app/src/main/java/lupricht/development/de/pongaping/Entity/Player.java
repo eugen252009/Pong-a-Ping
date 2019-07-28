@@ -16,6 +16,7 @@ import lupricht.development.de.pongaping.Game.Tools.Tool;
 
 public class Player {
 
+
     private final float DEFAULT_SPEED = 5;
     private float PauseSpeedX, PauseSpeedY;
     private Rect rect;
@@ -36,6 +37,7 @@ public class Player {
     private InetAddress IP;
     private int port;
     private Point touch = new Point(0, 0);
+
 
 
     public Player(int width, int lengh, Paint paint, float SPEED) {
@@ -77,6 +79,9 @@ public class Player {
 
 
     public void render(float pos) {
+        if (pos==getY()){
+            return;
+        }
         if (isMoving) {
             if (getY() < pos) {
                 setY((int) (getY() + SPEED));
@@ -91,6 +96,7 @@ public class Player {
                 setY(Tool.Screensize.y - getLengh() / 2);
             }
         }
+
     }
 
     public void render() {
@@ -118,7 +124,10 @@ public class Player {
 
 
     public void bouncyrender(float pos) {
-        yacc = (pos);
+        if (getY()==pos){
+            return;
+        }
+        yacc = (pos-getY());
         yvel += yacc;
         if (yvel < -40) {
             yvel = -40;

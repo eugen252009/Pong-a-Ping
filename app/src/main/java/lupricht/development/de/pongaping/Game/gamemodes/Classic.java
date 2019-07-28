@@ -49,15 +49,6 @@ public class Classic {
     }
 
 
-    public void inits() {
-
-    }
-
-    public void initc() {
-
-    }
-
-
     public DataPack collectData() {
         return new DataPack((int) ball.getX(), (int) ball.getY(), right.getX(), right.getY(),
                 left.getX(), left.getY(), right.getPoints(), left.getPoints());
